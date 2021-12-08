@@ -1,0 +1,28 @@
+Epic Tetris by Johannes Kalliokoski
+
+Normaali tetris, seitsemällä eri muodolla.
+Ikkunan kokoa ei voi muuttaa, jotta nappien paikat yms. olisivat varmasti järkeviä.
+Aluksi ainoastaan "Start" ja "Quit" -nappeja voi painaa. Jos painaa start -nappia, käynnistyy peli.
+Tällöin start nappia ei voi enää painaa ja nuolinapit aktivoituvat. Pisteet tulevat myös näkyviin. Jos uusin tetramino jää pelialueen ylärajalle, päättyy peli. Tällöin keskelle ilmestyy iso Game over! -teksti ja nuolinapit deaktivoituvat. Start -nappi aktivoituu, sen painaminen tyhjentää pelialueen, pisteet ja nollaa putoamisnopeuden. Tämän jälkeen alkaa uusi peli normaalisti.
+
+Tetraminoa ei voi ohjata muuten kuin user interfacen <- ja -> napeilla.
+
+Suoritetut ominaisuudet:
+
+Kaikki minimivaatimukset:
+-Alue tyhjä alussa.
+-ainakin neljä muotoa.
+-Putoavat alaspäin.
+-Voi siirrellä vasemalle ja oikealle.
+-Putoava Tetramino pysähtyy osuessaan muihin tetraminoihin tai pohjaan, eikä sitä voi siirtää alueen reunojen ulkopuolelle.
+-Pelin päättyminen kerrotaan.
+-Dokumentti.
+
+Lisäominaisuudet:
+-1. Seitsemän eri muotoa.
+-4. Täydet vaakarivit poistetaan. (Ja ylempänä olevat tetraminot siirtyvät yhden askeleen alemmas)
+-6. Pistelasku, 100p per poistettu rivi. Ei bonuspisteitä usean poistosta.
+-8. Putoaminen nopeutuu. (Jokaisen pysähtyneen tetraminon jälkeen)
+-9. Peliä voi pelata uudestaan ilman ohjelman käynnistämistä uudeleen. Ei voi aloittaa alusta kesken pelin, peli täytyy ensin hävitä.
+
+
