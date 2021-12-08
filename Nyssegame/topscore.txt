@@ -1,0 +1,3 @@
+Tensu;6;9
+Mika;10;20
+Jonanes;1;100

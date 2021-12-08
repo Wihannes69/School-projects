@@ -1,0 +1,53 @@
+#include <memory>
+#include <vector>
+#include <QImage>
+#include <QTime>
+#include "interfaces/icity.hh"
+#include "interfaces/iactor.hh"
+#include "interfaces/istop.hh"
+
+
+void setBackground(QImage& basicbackground, QImage& bigbackground){
+
+}
+
+void setClock(QTime clock){
+
+}
+
+void Interface::ICity::addStop(std::shared_ptr<Interface::IStop> stop){
+
+}
+
+void startGame(){
+
+}
+
+void addActor(std::shared_ptr<Interface::IActor> newactor){
+
+}
+
+void removeActor(std::shared_ptr<Interface::IActor> actor){
+
+}
+
+void actorRemoved(std::shared_ptr<Interface::IActor> actor){
+
+}
+
+bool findActor(std::shared_ptr<Interface::IActor> actor){
+
+}
+
+void actorMoved(std::shared_ptr<Interface::IActor> actor){
+
+}
+
+std::vector<std::shared_ptr<Interface::IActor>> getNearbyActors(Interface::Location loc){
+    
+}
+
+bool isGameOver(){
+    return false;
+}
+
